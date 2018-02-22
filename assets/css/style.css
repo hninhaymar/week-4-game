@@ -1,11 +1,60 @@
 /* General Elements*/
 body{
-	background-image: url("../images/background.png")
+    background-image: url("../images/background.png");
+    font-family: 'Times New Roman', Times, serif;
 }
 
 h1{
     background-color: rgb(146, 84, 13);
-    font-family: 'Times New Roman', Times, serif;
     font-size: 36px;
     font-weight: bold;
+    padding: 20px;
+    margin: 5px 10px 10px 10px;
+}
+
+#game-instructions {
+    background-color: blanchedalmond;
+    margin: 5px 20px 10px 20px;
+    padding: 20px;
+    font-weight: bold;
+    color: #0a831e;
+    font-size: 16px;
+    width: 560px;
+}
+
+.numberToMatch, .winsAndLosses{
+	float: left;
+	width: 15%;
+    height: 80px;
+    padding: 20px;
+    margin: 5px;
+}
+
+.numberToMatch {
+    background-color: #0a831e;
+    color: purple;
+    font-weight: bold;
+    width: 300px;
+}
+
+.winsAndLosses {
+    width: 150px;
+    background-color: turquoise;
+}
+
+.gems{
+	clear: both;
+}
+.gemImage{
+	height: 60px;
+	margin: 10px;
+}
+
+.userTotal{
+    background-color: rgb(55, 172, 133);
+    width: 300px;
+    font-weight: bold;
+    padding: 20px;
+    margin: 5px;
+    color: white;
 }
